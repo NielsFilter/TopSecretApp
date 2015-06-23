@@ -1,0 +1,14 @@
+﻿<Page x:Class="TopSecretApp.LoginPage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      Loaded="Page_Loaded"
+	Title="Login Page">
+    <Grid>
+    <StackPanel>
+       <TextBlock Text="Enter secret password" />
+       <PasswordBox x:Name="pbPassword"/>
+       <Button Content="Login" Click="Login_Click"/>
+    </StackPanel>
+    </Grid>
+</Page>
